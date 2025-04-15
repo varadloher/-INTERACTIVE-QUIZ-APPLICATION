@@ -32,3 +32,4 @@ In conclusion, building a real-time chat application using WebSockets and React.
 
 #output
 
+![Image](https://github.com/user-attachments/assets/9c102d61-a4a5-487a-bfc3-fb48a4e9d670)
