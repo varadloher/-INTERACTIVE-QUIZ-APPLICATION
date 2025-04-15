@@ -1,12 +1,16 @@
 # -INTERACTIVE-QUIZ-APPLICATION
 
 *COMPANY*: CODTECH IT SOLUTIONS
-*NAME*: VARAD SANTOSH LOHER
-*INTERN ID*: CT04WJ118
-*DOMAIN*: FRONT END DEVELOPMENT
-*DURATION*: 4 WEEKS
-*MENTOR*: NEELA SANTOSH KUMAR
 
+*NAME*: VARAD SANTOSH LOHER
+
+*INTERN ID*: CT04WJ118
+
+*DOMAIN*: FRONT END DEVELOPMENT
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH KUMAR
 
 ##A real-time chat application allows users to send and receive messages instantly without needing to reload or refresh the page. To build such an application, WebSockets are used because they enable continuous, two-way communication between the server and clients. This makes WebSockets ideal for applications that require real-time updates such as messaging apps, online games, and live data feeds. In this project, the goal is to develop a chat system using WebSockets, along with a modern front-end framework like React.js or Vue.js, and implement a responsive user interface that supports message history.
 
