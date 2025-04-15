@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose a Sport</h1>
+        <div class="sports-container">
+            <div class="sport-option" onclick="selectSport('cricket')">
+                <img src="images/cricket.jpeg" alt="Cricket">
+                <p>Cricket</p>
+            </div>
+            <div class="sport-option" onclick="selectSport('football')">
+                <img src="images/football.jpeg" alt="Football">
+                <p>Football</p>
+            </div>
+            <div class="sport-option" onclick="selectSport('tennis')">
+                <img src="images/tennis.jpg" alt="Tennis">
+                <p>Tennis</p>
+            </div>
+            <div class="sport-option" onclick="selectSport('kabaddi')">
+                <img src="images/kabaddi.jpeg" alt="Kabaddi">
+                <p>Kabaddi</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function selectSport(sport) {
+            localStorage.setItem("selectedSport", sport);
+            window.location.href = "quiz.html";
+        }
+    </script>
+</body>
+</html>
